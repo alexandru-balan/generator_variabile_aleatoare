@@ -3,6 +3,7 @@
 ![](https://img.shields.io/badge/Let's%20Plot-1.3.1-blueviolet)
 ![](https://img.shields.io/badge/Java-11-red)
 ![](https://img.shields.io/badge/Gradle-6.3-blue)
+![](https://img.shields.io/badge/Kotlin-1.3.71-orange)
 
 # Cum se construieste si compileaza proiectul
 
