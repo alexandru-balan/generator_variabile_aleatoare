@@ -38,7 +38,7 @@ Deoarece Windows nu dispune de un manager oficial de pachete nu pot recomanda de
 2. [**Gradle**](https://gradle.org/install/) -- urmati instructiunile de la sectiunea *Installing manually*
 3. [**Kotlin**](https://kotlinlang.org/docs/tutorials/command-line.html) -- urmati instructiunile din *Manual install* sau din sectiunea *Chocolatey*
 
-Pentru a compila si rula proiectul folositi pasii 4 si 5 de mai sus dar in loc de `./gradlew` tastati `gradlew.bat`
+Pentru a compila si rula proiectul folositi pasii 4 si 5 de mai sus dar in loc de `./gradlew` tastati `.\gradlew`
 
 ## Versiune precompilata
 Pentru a rula proiectul fara a-l compila puteti descarca varianta precompilata de [aici](https://github.com/alexandru-balan/generator_variabile_aleatoare/releases/tag/2020.alpha.2). Executand fisierul .jar ar trebui sa vedeti graficele celor doua variabile aleatoare specificate in cerinta proiectului.
