@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "alexandru.balan.simulare2"
-version = "2020.alpha.5"
+version = "2020.1"
 
 application {
     mainClassName = "simulare2.playground.MainKt"
