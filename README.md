@@ -41,7 +41,7 @@ Deoarece Windows nu dispune de un manager oficial de pachete nu pot recomanda de
 Pentru a compila si rula proiectul folositi pasii 4 si 5 de mai sus dar in loc de `./gradlew` tastati `.\gradlew`
 
 ## Versiune precompilata
-Pentru a rula proiectul fara a-l compila puteti descarca varianta precompilata de [aici](https://github.com/alexandru-balan/generator_variabile_aleatoare/releases/tag/2020.alpha.2). Executand fisierul .jar ar trebui sa vedeti graficele celor doua variabile aleatoare specificate in cerinta proiectului.
+Pentru a rula proiectul fara a-l compila puteti descarca varianta precompilata de [aici](https://github.com/alexandru-balan/generator_variabile_aleatoare/releases/latest). Executand fisierul .jar ar trebui sa vedeti graficele celor doua variabile aleatoare specificate in cerinta proiectului.
 
 ATENTIE!: Pentru a executa fisierul veti avea in continuare nevoie de JAVA 11 instalat pe sistemul dumneavoastra. Daca JAVA 11 nu este versiunea implicita puteti deschide un terminal si navigati catre locul unde se afla fisierul .jar apoi executati: `{calea_catre_java11}/bin/java -jar Generator.jar`. Spre exemplu:  `/usr/lib/jvm/java-11-openjdk/bin/java -jar Generator.jar`
 
