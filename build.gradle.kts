@@ -2,11 +2,12 @@ plugins {
     java
     application
     id("org.openjfx.javafxplugin") version "0.0.8"
+    id("com.github.johnrengelman.shadow") version "5.2.0"
     kotlin("jvm") version "1.3.71"
 }
 
 group = "alexandru.balan.simulare2"
-version = "2020.alpha.1"
+version = "2020.alpha.5"
 
 application {
     mainClassName = "simulare2.playground.MainKt"
@@ -31,9 +32,6 @@ dependencies {
     implementation ("org.jetbrains.lets-plot:lets-plot-jfx:1.3.1")
     implementation ("org.jetbrains.lets-plot:lets-plot-kotlin-api:0.0.9-SNAPSHOT")
     implementation("org.jetbrains.lets-plot:kotlin-frontend-api:0.0.8-SNAPSHOT")
-    implementation("org.jetbrains:kotlin-numpy:0.1.4")
-    implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.3.5")
-    testImplementation("junit", "junit", "4.12")
 }
 
 configure<JavaPluginConvention> {
@@ -41,9 +39,6 @@ configure<JavaPluginConvention> {
 }
 tasks {
     compileKotlin {
-        kotlinOptions.jvmTarget = "11"
-    }
-    compileTestKotlin {
         kotlinOptions.jvmTarget = "11"
     }
 }
